@@ -19,6 +19,6 @@ Foodible is a modern, responsive food delivery web application built with **Reac
 
 - **Frontend**: React.js, Tailwind CSS
 - **Icons**: React Icons
-- **Routing**: React Router DOM (if used)
+- **Routing**: React Router DOM 
 
 
