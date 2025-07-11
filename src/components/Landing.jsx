@@ -12,7 +12,7 @@ const LandingPage = () => {
           Welcome to <span className="text-purple-600">Foodible</span> 🍽️
         </h1>
         <p className="text-gray-700 text-xl sm:text-2xl mb-10">
-          Your ultimate destination for delicious food, seamless ordering, and delightful experiences. Discover meals you love with Flavoro.
+          Your ultimate destination for delicious food, seamless ordering, and delightful experiences. Discover meals you love with Foodible .
         </p>
         <button
           onClick={() => navigate("/Home")}
@@ -51,10 +51,10 @@ const LandingPage = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {[{
             name: "Riya Sharma",
-            review: "Flavoro made my lunch breaks exciting again! The desserts are incredible.",
+            review: "Foodible made my lunch breaks exciting again! The desserts are incredible.",
           }, {
             name: "Anuj Mehta",
-            review: "I love ordering from Flavoro, and I always get my food hot and fresh.",
+            review: "I love ordering from Foodible, and I always get my food hot and fresh.",
           }].map((t, i) => (
             <div key={i} className="bg-white rounded-xl p-6 shadow-md text-left">
               <p className="text-gray-700 italic mb-4">“{t.review}”</p>
